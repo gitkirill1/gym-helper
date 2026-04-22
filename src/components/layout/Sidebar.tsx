@@ -86,9 +86,7 @@ export function Sidebar({
           </nav>
         </div>
 
-        <div className="rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-slate-300">
-          Мобильная и десктопная навигация
-        </div>
+        
       </aside>
     </>
   );
