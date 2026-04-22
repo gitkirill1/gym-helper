@@ -7,7 +7,7 @@ import { BodybuildingPage } from "@/pages/BodybuildingPage";
 import { ConstructorPage } from "@/pages/ConstructorPage";
 
 export function App() {
-  const [page, setPage] = useState("powerlifting");
+  const [page, setPage] = useState("home");
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const pageTitles: Record<string, string> = {
