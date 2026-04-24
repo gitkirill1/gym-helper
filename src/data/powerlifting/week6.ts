@@ -1,7 +1,6 @@
 import {
   Activity,
-  ArrowDownToLine,
-  ArrowUpToLine,
+  Cable,
   Dumbbell,
   Rows3,
   Shield,
@@ -22,7 +21,7 @@ export const week6: TrainingWeek = {
           reps: "3",
           type: "main",
           liftTag: "т",
-          icon: ArrowDownToLine,
+          icon: Dumbbell,
         },
         {
           name: "Жим лежа",
@@ -40,7 +39,7 @@ export const week6: TrainingWeek = {
           reps: "6-10",
           rpe: 7,
           type: "accessory_select",
-          icon: ArrowUpToLine,
+          icon: Cable,
         },
         {
           name: "Упражнение на пресс",
@@ -80,7 +79,7 @@ export const week6: TrainingWeek = {
           reps: "6-10",
           rpe: 7,
           type: "accessory_select",
-          icon: ArrowUpToLine,
+          icon: Cable,
         },
         {
           name: "Бицепс + Трицепс",
@@ -111,7 +110,7 @@ export const week6: TrainingWeek = {
           reps: "5",
           type: "main",
           liftTag: "л",
-          icon: ArrowDownToLine,
+          icon: Dumbbell,
         },
         {
           name: "Горизонтальная тяга",
