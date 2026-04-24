@@ -1,4 +1,4 @@
-import { Dumbbell, Rows3, ArrowUpToLine } from "lucide-react";
+import { Dumbbell, Rows3, Cable } from "lucide-react";
 import {
   Select,
   SelectContent,
@@ -24,7 +24,7 @@ export function AccessorySelect({ group, value, onChange }: AccessorySelectProps
           {group.id === "horizontal-row" ? (
             <Rows3 className="h-4 w-4" />
           ) : group.id === "vertical-row" ? (
-            <ArrowUpToLine className="h-4 w-4" />
+            <Cable className="h-4 w-4" />
           ) : (
             <Dumbbell className="h-4 w-4" />
           )}
